@@ -9,9 +9,9 @@
 class Service :public ISprint0Task2V0
 {
 	// Inherited via ISprint0Task2V0
-	virtual int Add(int num_1, int num_2) override
+	virtual int Add(int a, int b) override
 	{
-		return num_1 + num_2;
+		return a + b;
 	}
 
 	// Inherited via ISprint0Task2V1

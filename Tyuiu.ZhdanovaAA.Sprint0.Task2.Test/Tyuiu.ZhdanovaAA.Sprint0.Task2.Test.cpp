@@ -14,15 +14,15 @@ namespace UnitTest1
 		{
 			//Unit 
 			ISprint0Task2V0* service = new Service();
-			int num_1 = 3;
-			int num_2 = 4;
-			int num_3;
+			int a = 3;
+			int b = 4;
+			int c;
 
 			//run
-			num_3 = service->Add(num_1, num_2);
+			c = service->Add(a, b);
 
 			//Valid
-			Assert::AreEqual(7, num_3);
+			Assert::AreEqual(7, c);
 
 		};
 	};
