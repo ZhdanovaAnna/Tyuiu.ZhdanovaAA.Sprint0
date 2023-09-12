@@ -9,7 +9,7 @@ namespace UnitTest4
 	{
 	public:
 		
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(TestMethodV0)
 		{
 			//Unit
 			ISprint0Task5* service15 = new Service15();
@@ -24,7 +24,7 @@ namespace UnitTest4
 			//valid
 			Assert::AreEqual(17.0f, d);
 		}
-		TEST_METHOD(TestMethod2)
+		TEST_METHOD(TestMethodV1)
 		{
 			//Unit
 			ISprint0Task5* service25 = new Service25();
@@ -39,7 +39,7 @@ namespace UnitTest4
 			//valid
 			Assert::AreEqual(16.0f, d);
 		}
-		TEST_METHOD(TestMethod3)
+		TEST_METHOD(TestMethodV2)
 		{
 			//Unit
 			ISprint0Task5* service35 = new Service35();
