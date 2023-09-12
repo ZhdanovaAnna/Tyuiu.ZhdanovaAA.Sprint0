@@ -22,7 +22,7 @@ namespace UnitTest4
 			d = service15->Zadacha(a, b, c);
 
 			//valid
-			Assert::AreEqual(17.0f, d);
+			Assert::AreEqual(17.625f, d);
 		}
 		TEST_METHOD(TestMethodV1)
 		{
@@ -52,7 +52,7 @@ namespace UnitTest4
 			d = service35->Zadacha(a, b, c);
 
 			//valid
-			Assert::AreEqual(16.0f, d);
+			Assert::AreEqual(16.1f, d);
 		}
 	};
 }

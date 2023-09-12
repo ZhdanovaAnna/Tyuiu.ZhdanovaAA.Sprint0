@@ -18,6 +18,6 @@ int main()
     scanf_s("%f", &b);
     cout << "Цена печенья (руб.) -> ";
     scanf_s("%f", &c);
-    cout << "Стоимость покупки (целых): " << service35->Zadacha(a, b, c) << " " << "руб.";
+    cout << "Стоимость покупки: " << service35->Zadacha(a, b, c) << " " << "руб.";
     cout << endl;
 }

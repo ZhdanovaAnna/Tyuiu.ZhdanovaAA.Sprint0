@@ -18,7 +18,7 @@ int main()
     scanf_s("%f", &b);
     cout << "Высота (см) -> ";
     scanf_s("%f", &c);
-    cout << "Объем (целых): " << service15->Zadacha(a, b, c) << " " << "см.куб.";
+    cout << "Объем: " << service15->Zadacha(a, b, c) << " " << "см.куб.";
     cout << endl;
 
 }

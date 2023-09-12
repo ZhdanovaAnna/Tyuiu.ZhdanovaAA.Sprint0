@@ -12,7 +12,7 @@
 class Service15 :public ISprint0Task5
 {
 	//inherited via ISprint0Task5
-	virtual int Zadacha(float a, float b, float c) override
+	virtual float Zadacha(float a, float b, float c) override
 	{
 		return a * b * c;
 	}
@@ -21,7 +21,7 @@ class Service15 :public ISprint0Task5
 class Service25 :public ISprint0Task5
 {
 	//inherited via ISprint0Task5
-	virtual int Zadacha(float a, float b, float c) override
+	virtual float Zadacha(float a, float b, float c) override
 	{
 		return a * c + b * c;
 	}
@@ -30,7 +30,7 @@ class Service25 :public ISprint0Task5
 class Service35 :public ISprint0Task5
 {
 	//inherited via ISprint0Task5
-	virtual int Zadacha(float a, float b, float c) override
+	virtual float Zadacha(float a, float b, float c) override
 	{
 		return a + b + c;
 	}

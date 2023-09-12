@@ -18,6 +18,6 @@ int main()
     scanf_s("%f", &b);
     cout << "Количество комплектов (шт.) -> ";
     scanf_s("%f", &c);
-    cout << "Стоимость покупки (целых): " << service25->Zadacha(a, b, c) << " " << "руб.";
+    cout << "Стоимость: " << service25->Zadacha(a, b, c) << " " << "руб.";
     cout << endl;
 }
