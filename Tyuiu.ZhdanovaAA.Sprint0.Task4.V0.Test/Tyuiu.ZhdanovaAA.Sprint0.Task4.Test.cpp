@@ -14,17 +14,17 @@ namespace UnitTest3
 		{
 			//Unit
 			ISprint0Task4* service = new Service();
-			int a = 2;
-			int b = 3;
-			int c = 4;
-			int d = 5;
+			int a = 20;
+			int b = 2;
+			int c = 5;
+			int d = 7;
 			int i;
 
 			//run
 			i = service->Calculate(a, b, c, d);
 
 			//valid
-			Assert::AreEqual(14, i);
+			Assert::AreEqual(9, i);
 		}
 	};
 }

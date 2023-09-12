@@ -11,6 +11,6 @@ class Service :public ISprint0Task4
 	//Inherited via ISprint0Task4
 	virtual int Calculate(int a, int b, int c, int d) override
 	{
-		return a + b + c + d;
+		return (a / b / c) + d;
 	}
 };

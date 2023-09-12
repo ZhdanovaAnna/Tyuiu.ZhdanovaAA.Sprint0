@@ -8,7 +8,7 @@ int main()
 {
 	ISprint0Task4* service = new Service();
 	cout << "ZhdanovaAA\n";
-	cout << "C = a+b+c+d\n";
-	cout << "Rezult = " << service->Calculate(102, 24, 31, 2);
+	cout << "C = (a/b/c)+d\n";
+	cout << "Rezult = " << service->Calculate(15, 2, 4, 8);
 	cout << endl;
 }
