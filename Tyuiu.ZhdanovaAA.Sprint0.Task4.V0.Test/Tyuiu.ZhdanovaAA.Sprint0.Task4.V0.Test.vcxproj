@@ -172,6 +172,18 @@
     <ProjectReference Include="..\Tyuiu.ZhdanovaAA.Sprint0.Task4.V0\Tyuiu.ZhdanovaAA.Sprint0.Task4.V0.vcxproj">
       <Project>{9bb6eccd-ecae-494b-8d54-aeb7cbfa108b}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\Tyuiu.ZhdanovaAA.Sprint0.Task4.V1\Tyuiu.ZhdanovaAA.Sprint0.Task4.V1.vcxproj">
+      <Project>{e7a255d6-0f7b-4e26-b624-69873fc72583}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Tyuiu.ZhdanovaAA.Sprint0.Task4.V2\Tyuiu.ZhdanovaAA.Sprint0.Task4.V2.vcxproj">
+      <Project>{7c8fe404-352e-4260-b7aa-734ceb98e25e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Tyuiu.ZhdanovaAA.Sprint0.Task4.V3\Tyuiu.ZhdanovaAA.Sprint0.Task4.V3.vcxproj">
+      <Project>{7e734d65-e114-4cfd-a6d1-c7da4c552f01}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Tyuiu.ZhdanovaAA.Sprint0.Task4.V4\Tyuiu.ZhdanovaAA.Sprint0.Task4.V4.vcxproj">
+      <Project>{a53284ea-29c0-4cab-a9e8-fae8d2d472cd}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

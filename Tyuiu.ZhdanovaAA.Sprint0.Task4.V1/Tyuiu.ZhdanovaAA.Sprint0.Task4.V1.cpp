@@ -6,9 +6,9 @@
 using namespace std;
 int main()
 {
-	ISprint0Task4* service = new Service();
+	ISprint0Task4* service = new Service2();
 	cout << "ZhdanovaAA\n";
-	cout << "C = (a/b/c)+d\n";
-	cout << "Rezult = " << service->Calculate(15, 2, 4, 8);
+	cout << "C = a * (b + c) + d\n";
+	cout << "Rezult = " << service->Calculate(3, 4, 1, 2);
 	cout << endl;
 }

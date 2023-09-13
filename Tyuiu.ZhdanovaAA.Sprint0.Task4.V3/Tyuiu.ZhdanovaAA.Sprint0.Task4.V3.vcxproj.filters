@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Tyuiu.ZhdanovaAA.Sprint0.Task4.V0.cpp">
+    <ClCompile Include="Tyuiu.ZhdanovaAA.Sprint0.Task4.V3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
