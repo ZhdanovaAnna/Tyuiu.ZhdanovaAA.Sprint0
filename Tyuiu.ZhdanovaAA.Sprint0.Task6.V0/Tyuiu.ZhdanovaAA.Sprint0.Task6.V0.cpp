@@ -6,17 +6,17 @@
 using namespace std;
 int main()
 {
-	ISprint0Task6* formula = new Formula3();
+	ISprint0Task6* formula = new Formula1();
 	setlocale(LC_ALL, "Russian");
 	int a;
 	int b;
 	cout << "ZhdanovaAA\n";
-	cout << "Task6_V2";
+	cout << "Task6_V0";
 	cout << endl;
 	cout << "¬ведите первое число: ";
 	scanf_s("%i", &a);
 	cout << "¬ведите второе число: ";
 	scanf_s("%i", &b);
-	cout << "Formula = 5 + (a * b / 3)\n";
+	cout << "Formula = a / 3 / b + 6\n";
 	cout << "Rezult = " << formula->Calculate(a, b);
 }
